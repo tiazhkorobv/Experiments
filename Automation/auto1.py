@@ -34,14 +34,11 @@ snd_msg_btn = browser.find_element(By.XPATH, '//*[@id="exampleModal"]/div/div/di
 snd_msg_btn.click()
 
  
-time.sleep(200)
-browser.find_element(By.XPATH, 
-          browser.find_element(By.XPATH,            
-browser.find_element(By.XPATH, '//a[contains(text(),'Установка')]')
-browser.find_element(By.XPATH, '//h2[contains(text(),'Содержание:')]')
-browser.find_element(By.XPATH, '/html[1]/body[1]/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[2]/div[2]/div[1]/div[1]/div[1]/br[2]')
-browser.find_element(By.XPATH, '//div[@id='post-content-body']')
-browser.find_element(By.XPATH, '//body/div[@id='app']/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[2]/div[2]/div[1]/div[1]')
-
-browser.find_element(By.XPATH, '//body/div[@id='app']/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[2]/div[2]/div[1]/div[1]/div[1]')
-browser.find_element(By.XPATH, '/html[1]/body[1]/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[2]/div[2]/div[1]')
+time.sleep(200) 
+browser.find_element(By.XPATH, "//a[contains(text(),'Установка')]")
+browser.find_element(By.XPATH, "//h2[contains(text(),'Содержание:')]")
+browser.find_element(By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[2]/div[2]/div[1]/div[1]/div[1]/br[2]")
+browser.find_element(By.XPATH, "//div[@id='post-content-body']")
+browser.find_element(By.XPATH, "//body/div[@id='app']/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[2]/div[2]/div[1]/div[1]")
+browser.find_element(By.XPATH, "//body/div[@id='app']/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[2]/div[2]/div[1]/div[1]/div[1]")
+browser.find_element(By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[2]/div[2]/div[1]")
