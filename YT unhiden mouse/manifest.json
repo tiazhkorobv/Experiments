@@ -1,0 +1,12 @@
+{
+  "name": "YT Unhiden Mouse Pointer",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["*://*.youtube.com/*"],
+    "js": ["content.js"]
+  }],
+  "icons": {
+    "128": "CursorYT.png"
+  }
+}
