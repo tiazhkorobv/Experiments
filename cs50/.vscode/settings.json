@@ -1,0 +1,15 @@
+{
+    "gitdoc.enabled": true,
+    "files.associations": {
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "algorithm": "c"
+    },
+    "google-translate.firstLanguage": "ru",
+    "google-translate.switchFunctionTranslation": true,
+    "debug50.disposeDebugTerminals": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}

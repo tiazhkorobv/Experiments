@@ -1,0 +1,6 @@
+Prompt user for height
+If height is less than 1 or greater than 8 than iterate prompt
+Iterate from 1 untill given height:
+. = row no. - 
+
+On iteration i, print i hashes and then a newline
